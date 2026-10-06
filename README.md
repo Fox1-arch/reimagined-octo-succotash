@@ -23,4 +23,3 @@ pip install -r requirements.txt
 
 python src/main.py
 python src/jogo.py
-
