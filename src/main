@@ -1,0 +1,17 @@
+"""
+Script de Processamento e Limpeza de Dados Financeiros / Imobiliários
+"""
+
+import pandas as pd
+
+
+def processar_dados(caminho_csv: str) -> pd.DataFrame:
+    """Carrega e realiza a limpeza inicial dos dados do ficheiro CSV."""
+    df = pd.read_csv(caminho_csv)
+    # Exemplo de tratamento de dados
+    df_limpo = df.dropna().drop_duplicates()
+    return df_limpo
+
+
+if __name__ == "__main__":
+    print("Iniciando o processamento dos dados...")
