@@ -2,7 +2,7 @@
 
 Pipeline para higienização, estruturação e análise de dados financeiros e imobiliários.
 
-## 🛠️️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 * Python 3.10+
 * Pandas
 * Matplotlib
@@ -17,10 +17,7 @@ Pipeline para higienização, estruturação e análise de dados financeiros e i
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Documentação do repositório
 
-## 🚀 Como Executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Fox1-arch/reimagined-octo-succotash.git
+git clone https://github.com/Fox1-arch/reimagined-octo-succotash.git
 
 pip install -r requirements.txt
 
